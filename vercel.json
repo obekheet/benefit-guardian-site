@@ -1,0 +1,8 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/blog", "destination": "/", "permanent": false },
+    { "source": "/privacy-policy", "destination": "/privacy", "permanent": true }
+  ]
+}
