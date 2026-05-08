@@ -25,16 +25,22 @@
 </head>
 <body class="bg-white text-slate-900 antialiased">
 <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
-  <div class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
+  <div class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between gap-3 relative">
     <a href="/" class="font-bold text-lg">🛡️ Benefit Guardian</a>
-    <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+    <input type="checkbox" id="menu-toggle" class="peer hidden" />
+    <nav class="hidden peer-checked:flex md:flex absolute md:static top-full md:top-auto inset-x-0 md:inset-x-auto flex-col md:flex-row md:items-center gap-4 md:gap-6 bg-white md:bg-transparent border-b md:border-b-0 border-slate-200 shadow md:shadow-none p-4 md:p-0 text-sm font-medium">
       <a href="/" class="hover:text-blue-600">Home</a>
       <a href="/about" class="text-blue-600 font-semibold">About</a>
       <a href="/privacy" class="hover:text-blue-600">Privacy</a>
       <a href="/terms" class="hover:text-blue-600">Terms</a>
       <a href="mailto:support@benefitguardian.org" class="hover:text-blue-600">Support</a>
     </nav>
-    <a href="https://app.benefitguardian.org" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-full">Launch App →</a>
+    <div class="flex items-center gap-2">
+      <a href="https://app.benefitguardian.org" class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-full min-h-[44px] inline-flex items-center">Launch App →</a>
+      <label for="menu-toggle" class="md:hidden cursor-pointer p-2 min-h-[44px] min-w-[44px] flex items-center justify-center" aria-label="Toggle menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </label>
+    </div>
   </div>
 </header>
 
