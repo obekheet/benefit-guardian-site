@@ -39,7 +39,7 @@
 
 <main class="mx-auto max-w-3xl px-6 py-16">
   <h1 class="text-4xl font-extrabold">Privacy Policy</h1>
-  <p class="mt-2 text-slate-500 text-sm">Last updated: May 2026</p>
+  <p class="mt-2 text-slate-500 text-sm">Last updated: May 8, 2026</p>
 
   <p class="mt-8 text-slate-700">Benefit Guardian ("we", "our", "the app") helps users discover potentially unclaimed benefits from credit cards, memberships, and government programs. This policy explains what we collect, what we don't, and how we protect your data.</p>
 
@@ -74,6 +74,7 @@
     <li>Supabase — authentication and database (encrypted at rest and in transit)</li>
     <li>Google OAuth — optional sign-in method (we receive your email only)</li>
     <li>AI provider (Google Gemini or OpenAI) — analyzes your benefits (receives card/service names, not personal info)</li>
+    <li>Sentry — error monitoring. When the app encounters an error, Sentry receives a stack trace, user agent, and URL. Per our configuration, Sentry does not receive personally identifiable information such as email, IP address, or cookies (sendDefaultPii: false). Sentry processes data on US servers.</li>
   </ul>
 
   <h2 class="mt-12 text-2xl font-bold">Data storage & security</h2>
@@ -85,6 +86,15 @@
 
   <h2 class="mt-12 text-2xl font-bold">Your rights</h2>
   <p class="mt-4 text-slate-700">You may request to access, correct, or delete your data at any time by emailing <a class="text-blue-600 hover:underline" href="mailto:support@benefitguardian.org">support@benefitguardian.org</a>. We will respond within 30 days.</p>
+
+  <h2 class="mt-12 text-2xl font-bold">Data retention</h2>
+  <p class="mt-4 text-slate-700">We retain account data for as long as your account is active. If you delete your account or request deletion, we remove personal information within 30 days. Anonymized aggregate analytics may be retained longer to improve the service. Sentry error data is retained per Sentry's default retention (90 days for error events).</p>
+
+  <h2 class="mt-12 text-2xl font-bold">California resident rights (CCPA)</h2>
+  <p class="mt-4 text-slate-700">California residents have the right to: (1) know what personal information we collect, use, and share; (2) request deletion of personal information; (3) opt out of sale of personal information (we do not sell personal information, but you may exercise this right); (4) non-discrimination for exercising privacy rights. Submit requests to <a class="text-blue-600 hover:underline" href="mailto:support@benefitguardian.org">support@benefitguardian.org</a>. We will respond within 45 days.</p>
+
+  <h2 class="mt-12 text-2xl font-bold">Children's data</h2>
+  <p class="mt-4 text-slate-700">Benefit Guardian is not directed to children under 13. We do not knowingly collect personal information from children under 13. If we learn we have collected information from a child under 13, we will delete it. Parents who believe their child has provided information may contact <a class="text-blue-600 hover:underline" href="mailto:support@benefitguardian.org">support@benefitguardian.org</a>.</p>
 
   <h2 class="mt-12 text-2xl font-bold">Changes to this policy</h2>
   <p class="mt-4 text-slate-700">We may update this policy from time to time. Material changes will be posted on this page with an updated date.</p>
