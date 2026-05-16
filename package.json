@@ -1,0 +1,16 @@
+{
+  "name": "benefit-guardian-site",
+  "version": "1.0.0",
+  "description": "Benefit Guardian - Credit Card & Government Program Benefit Aggregator",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "esbuild analytics.js --bundle --minify --format=esm --outfile=dist/analytics.js"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+}
