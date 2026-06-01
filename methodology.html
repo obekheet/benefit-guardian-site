@@ -29,6 +29,56 @@
 window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 </script>
 <script defer src="/_vercel/insights/script.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.benefitguardian.org/#organization",
+  "name": "Benefit Guardian",
+  "url": "https://www.benefitguardian.org",
+  "logo": "https://www.benefitguardian.org/og-image.png",
+  "description": "Independent, affiliate-free tool helping people discover the value in their credit cards, subscriptions, and government programs, with every benefit verified against its primary source.",
+  "founder": { "@id": "https://www.benefitguardian.org/#omar" },
+  "sameAs": [],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "support@benefitguardian.org",
+    "contactType": "Customer Support"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.benefitguardian.org/#omar",
+  "name": "Omar Bekheet",
+  "jobTitle": "Founder",
+  "worksFor": { "@id": "https://www.benefitguardian.org/#organization" },
+  "url": "https://www.benefitguardian.org/about",
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.benefitguardian.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Methodology"
+    }
+  ]
+}
+</script>
 </head>
 <body class="bg-white text-slate-900 antialiased">
 <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
@@ -62,6 +112,8 @@ window.va = window.va || function () { (window.vaq = window.vaq || []).push(argu
 <section>
   <div class="mx-auto max-w-3xl px-6 py-16 prose prose-slate">
 
+    <p class="text-sm text-slate-500"><a href="/about" class="font-semibold text-slate-700 hover:underline">By Omar Bekheet</a>, Founder · Last reviewed May 17, 2026</p>
+
     <h2 class="mt-4 text-2xl font-bold">Where the data comes from</h2>
     <p class="mt-4 text-slate-700">Every benefit in our database comes from an official source: terms and conditions published directly by card issuers (Amex, Chase, Capital One, and others), official program pages for memberships like Costco and AAA, and government program documentation from sites like medicaid.gov and ssa.gov. Every benefit row in our system stores the source URL it was extracted from. When you see a benefit in your vault, the citation link goes back to the primary source so you can verify what we found.</p>
 
@@ -70,6 +122,25 @@ window.va = window.va || function () { (window.vaq = window.vaq || []).push(argu
 
     <h2 class="mt-12 text-2xl font-bold">How we verify what we show you</h2>
     <p class="mt-4 text-slate-700">Every benefit in your vault links back to the primary source where we found it. You can verify what we found by reading the same page we read. If we can't find a benefit in a primary source, we don't show it. No confidence scores, no estimates — just sourced facts.</p>
+
+        <h2 class="mt-12 text-2xl font-bold">Editorial standards</h2>
+    <ul class="mt-4 space-y-3 text-slate-700">
+      <li>• Every benefit is verified against its primary source — the issuer’s own terms or the program’s own government page — never a third-party summary.</li>
+      <li>• Every benefit is stamped with the date it was last verified against that source.</li>
+      <li>• No affiliate revenue, referral fees, or issuer sponsorships influence what we show or how it is ranked. We earn none.</li>
+      <li>• Corrections are welcomed and fixed at the next refresh. Found an error? Email <a href="mailto:support@benefitguardian.org" class="text-blue-600 hover:underline">support@benefitguardian.org</a>.</li>
+    </ul>
+
+    <h2 class="mt-12 text-2xl font-bold">A worked example: the Amex Platinum Uber Cash credit</h2>
+    <p class="mt-4 text-slate-700">Here is exactly how one benefit travels from an official source to your vault.</p>
+    <ol class="mt-4 space-y-3 text-slate-700 list-decimal list-inside">
+      <li><strong>Source.</strong> We read American Express’s official Platinum Card benefit terms for the Uber Cash benefit — the issuer’s own page, not a third-party write-up.</li>
+      <li><strong>What we extract.</strong> Platinum Card Members get $15 in Uber Cash each month, plus a bonus $20 in December — up to $200 in Uber Cash per year — valid on U.S. rides and Uber Eats orders, with enrollment required.</li>
+      <li><strong>How it’s stored.</strong> We save it as a structured row tied to the Amex Platinum, with the source URL and the date we last verified it.</li>
+      <li><strong>What you see.</strong> The benefit appears in your vault with a link back to that exact Amex page, so you can confirm it yourself.</li>
+    </ol>
+    <p class="mt-4 text-slate-700">This is the receipt. Every benefit follows this same path from official source to your vault.</p>
+    <p class="mt-3 text-sm italic text-slate-500">Last verified against American Express’s official Platinum Card benefit terms: May 31, 2026. Benefit terms can change; if this figure ever drifts from Amex’s current terms, that is exactly what the last-verified date is here to flag.</p>
 
     <h2 class="mt-12 text-2xl font-bold">Limitations</h2>
     <p class="mt-4 text-slate-700">We're honest about what we don't do. A few things to know:</p>
@@ -97,6 +168,7 @@ window.va = window.va || function () { (window.vaq = window.vaq || []).push(argu
       <div class="font-bold text-white">🛡️ Benefit Guardian</div>
       <p class="mt-2">© 2026 Benefit Guardian. All rights reserved.</p>
       <p class="mt-2">Support: <a class="text-blue-400 hover:underline" href="mailto:support@benefitguardian.org">support@benefitguardian.org</a></p>
+      <p class="mt-2">Built by <a class="text-blue-400 hover:underline" href="/about">Omar Bekheet</a></p>
     </div>
     <p class="mt-8 max-w-3xl mx-auto text-center text-slate-500 leading-relaxed">Benefit Guardian is an independent tool and is not affiliated with, endorsed by, or sponsored by any government agency. Information provided is for educational purposes only and is not legal, financial, or tax advice. Eligibility and benefit amounts are determined solely by the issuing agency. For official information, visit <a class="underline hover:text-slate-300" href="https://www.benefits.gov" target="_blank" rel="noopener">Benefits.gov</a>, <a class="underline hover:text-slate-300" href="https://www.ssa.gov" target="_blank" rel="noopener">SSA.gov</a>, and <a class="underline hover:text-slate-300" href="https://www.usa.gov" target="_blank" rel="noopener">USA.gov</a>.</p>
     <nav class="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2">
