@@ -159,5 +159,13 @@ window.va = window.va || function () { (window.vaq = window.vaq || []).push(argu
 </nav>
 </div>
 </footer>
+
+<!-- bg-float-cta -->
+<div id="bg-float" class="fixed bottom-4 inset-x-4 md:inset-x-auto md:right-6 md:bottom-6 z-40 opacity-0 translate-y-3 pointer-events-none transition-all duration-300">
+<a href="https://app.benefitguardian.org" class="flex md:inline-flex items-center justify-center gap-2 bg-blue-600 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition w-full md:w-auto">
+<span>&#128269; Find My Benefits &mdash; Free</span>
+</a>
+</div>
+<script>(function(){var el=document.getElementById("bg-float");if(!el)return;function upd(){if(window.scrollY>600){el.classList.remove("opacity-0","translate-y-3","pointer-events-none");}else{el.classList.add("opacity-0","translate-y-3","pointer-events-none");}}window.addEventListener("scroll",upd,{passive:true});upd();})();</script>
 </body>
 </html>
