@@ -19,12 +19,26 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.benefitguardian.org/#org","name":"Benefit Guardian","url":"https://www.benefitguardian.org/","sameAs":[]},{"@type":"Person","@id":"https://www.benefitguardian.org/#ob","name":"O.B.","jobTitle":"Founder"},{"@type":"Article","headline":"EMV Chip vs. Tap-to-Pay: What&rsquo;s the Difference?","description":"Should you insert the chip or tap your card? Here is how EMV chip payments and contactless tap-to-pay work, how they keep your card data safe, and when to use each — in plain English.","datePublished":"2026-06-03","dateModified":"2026-06-03","author":{"@id":"https://www.benefitguardian.org/#ob"},"publisher":{"@id":"https://www.benefitguardian.org/#org"},"mainEntityOfPage":"https://www.benefitguardian.org/learn/emv-chip-vs-tap-to-pay"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.benefitguardian.org/"},{"@type":"ListItem","position":2,"name":"Learn","item":"https://www.benefitguardian.org/learn"},{"@type":"ListItem","position":3,"name":"Chip vs. tap-to-pay","item":"https://www.benefitguardian.org/learn/emv-chip-vs-tap-to-pay"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is tap-to-pay less secure than inserting the chip?","acceptedAnswer":{"@type":"Answer","text":"No. Tap-to-pay uses the same chip technology and generates a unique one-time code for each transaction, so it is just as secure as inserting the chip."}},{"@type":"Question","name":"Can someone steal my card info by standing near me?","acceptedAnswer":{"@type":"Answer","text":"It is extremely unlikely. Contactless readers only work within an inch or two, and each tap produces a single-use code that can&rsquo;t be reused, so a captured signal is worthless."}},{"@type":"Question","name":"Why do some stores still make me swipe?","acceptedAnswer":{"@type":"Answer","text":"Some older card readers haven&rsquo;t been upgraded to accept chip or tap. When that happens, swiping is your only option — but prefer chip or tap wherever they&rsquo;re available."}}]}]}</script>
 </head>
 <body class="bg-white text-slate-900">
-  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
-    <nav class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="/" class="font-bold text-slate-900">🛡️ Benefit Guardian</a>
-      <a href="/learn" class="text-sm text-blue-700 font-semibold">← All articles</a> <a href="https://app.benefitguardian.org" class="text-sm text-blue-700 font-semibold">Free Tool</a>
+  <header class="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200">
+  <div class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between gap-3 relative">
+    <a href="/" class="font-bold text-lg">🛡️ Benefit Guardian</a>
+    <input type="checkbox" id="menu-toggle" class="peer hidden" />
+    <nav class="hidden peer-checked:flex md:flex absolute md:static top-full md:top-auto inset-x-0 md:inset-x-auto flex-col md:flex-row md:items-center gap-4 md:gap-6 bg-white md:bg-transparent border-b md:border-b-0 border-slate-200 shadow md:shadow-none p-4 md:p-0 text-sm font-medium">
+      <a href="/" class="hover:text-blue-600">Home</a>
+      <a href="/learn" class="hover:text-blue-600">Learn</a>
+      <a href="/cards" class="hover:text-blue-600">Cards</a>
+      <a href="/methodology" class="hover:text-blue-600">Methodology</a>
+      <a href="/about" class="hover:text-blue-600">About</a>
+      <a href="https://app.benefitguardian.org" class="md:hidden hover:text-blue-600">Free Tool</a>
     </nav>
-  </header>
+    <div class="flex items-center gap-3">
+      <a href="https://app.benefitguardian.org" class="hidden md:inline-block bg-blue-600 text-white font-semibold px-5 py-2 rounded-full shadow hover:bg-blue-700 transition">Launch App &rarr;</a>
+      <label for="menu-toggle" class="md:hidden cursor-pointer p-2 min-h-[44px] min-w-[44px] flex items-center justify-center" aria-label="Toggle menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </label>
+    </div>
+  </div>
+</header>
   <section class="bg-gradient-to-br from-blue-600 to-blue-800 text-white">
     <div class="max-w-4xl mx-auto px-4 py-14">
       <nav class="text-xs text-blue-100 mb-3"><a href="/" class="hover:underline">Home</a> / <a href="/learn" class="hover:underline">Learn</a> / Chip vs. tap-to-pay</nav>
