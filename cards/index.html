@@ -43,16 +43,16 @@
     <label for="card-search" class="sr-only">Search cards</label>
     <input id="card-search" type="search" autocomplete="off" placeholder="Search by card or issuer… (e.g. Sapphire, Amex, cash back)" class="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-base outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200" />
     <div class="mt-4 flex flex-wrap items-center gap-3">
-      <select id="filter-issuer" class="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm"><option value="">All issuers</option></select>
-      <select id="filter-cat" class="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm"><option value="">All types</option></select>
-      <select id="filter-fee" class="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm">
+      <select id="filter-issuer" class="rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm min-h-[44px]"><option value="">All issuers</option></select>
+      <select id="filter-cat" class="rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm min-h-[44px]"><option value="">All types</option></select>
+      <select id="filter-fee" class="rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm min-h-[44px]">
         <option value="">Any annual fee</option>
         <option value="0">No annual fee ($0)</option>
         <option value="1-99">Under $100</option>
         <option value="100-499">$100 – $499</option>
         <option value="500-99999">$500+</option>
       </select>
-      <select id="sort-by" class="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm">
+      <select id="sort-by" class="rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm min-h-[44px]">
         <option value="name">Sort: Name (A–Z)</option>
         <option value="fee-asc">Annual fee (low → high)</option>
         <option value="fee-desc">Annual fee (high → low)</option>
