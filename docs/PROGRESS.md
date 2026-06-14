@@ -58,6 +58,16 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
 - DB now has 28 states. Remaining (23): DE, HI, ID, IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: DE)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103. Restore=19103/PA/New York.
+
+### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
+- SNAP / Food Assistance: dhss.delaware.gov/dss/foodstamps/
+- Delaware Medicaid: dhss.delaware.gov/dmma/medicaid/
+- Temporary Assistance for Needy Families (TANF): dhss.delaware.gov/dss/tanf/
+- Delaware Healthy Children Program (CHIP): dhss.delaware.gov/dmma/dhcp/
+- keys: "SNAP / Food Assistance","Delaware Medicaid","Temporary Assistance for Needy Families (TANF)","Delaware Healthy Children Program (CHIP)"
+- slugs: delaware-snap, delaware-medicaid, delaware-tanf, delaware-healthy-children
+- DB now has 28 states. Remaining (22): HI, ID, IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: HI)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
