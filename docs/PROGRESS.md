@@ -68,6 +68,16 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: delaware-snap, delaware-medicaid, delaware-tanf, delaware-healthy-children
 - DB now has 28 states. Remaining (22): HI, ID, IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: HI)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901. Restore=19103/PA/New York.
+
+### Hawaii (HI) — DONE & VERIFIED (test ZIP 96813, Honolulu)
+- SNAP / Food Assistance: humanservices.hawaii.gov/bessd/snap/
+- Hawaii Med-QUEST (Medicaid): medquest.hawaii.gov/
+- Temporary Assistance for Needy Families (TANF): humanservices.hawaii.gov/bessd/tanf/
+- Med-QUEST for Children (CHIP): medquest.hawaii.gov/en/members-applicants/eligibility.html
+- keys: "SNAP / Food Assistance","Hawaii Med-QUEST (Medicaid)","Temporary Assistance for Needy Families (TANF)","Med-QUEST for Children (CHIP)"
+- slugs: hawaii-snap, hawaii-med-quest, hawaii-tanf, hawaii-med-quest-children
+- Remaining (21): ID, IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: ID)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
