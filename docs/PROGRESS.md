@@ -78,6 +78,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: hawaii-snap, hawaii-med-quest, hawaii-tanf, hawaii-med-quest-children
 - Remaining (21): ID, IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: ID)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813. Restore=19103/PA/New York.
+### Idaho (ID) — DONE & VERIFIED (test ZIP 83702, Boise)
+- SNAP / Food Assistance: healthandwelfare.idaho.gov/services-programs/food-assistance
+- Idaho Medicaid: healthandwelfare.idaho.gov/services-programs/medicaid-health
+- Temporary Assistance for Families in Idaho (TAFI/TANF): healthandwelfare.idaho.gov/services-programs/financial-assistance/about-tafi
+- Medicaid for Children (CHIP): healthandwelfare.idaho.gov/services-programs/medicaid-health/about-medicaid-children
+- keys: "SNAP / Food Assistance","Idaho Medicaid","Temporary Assistance for Families in Idaho (TAFI/TANF)","Medicaid for Children (CHIP)"
+- slugs: idaho-snap, idaho-medicaid, idaho-tafi, idaho-chip
+- Remaining (20): IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: IA)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
