@@ -101,8 +101,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - CHIP (KanCare): kancare.ks.gov/apply-now
 - keys: "SNAP / Food Assistance","KanCare (Medicaid)","TANF / Cash Assistance","CHIP (KanCare)"
 - slugs: kansas-snap, kansas-kancare, kansas-tanf, kansas-chip
-- Remaining (18): KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: KY)
+### Kentucky (KY) — DONE & VERIFIED (test ZIP 40601, Frankfort)
+- SNAP / Food Assistance: chfs.ky.gov/agencies/dcbs/dfs/nab/Pages/snap.aspx
+- Kentucky Medicaid: chfs.ky.gov/agencies/dms/Pages/default.aspx
+- Kentucky Transitional Assistance Program (KTAP/TANF): chfs.ky.gov/agencies/dcbs/dfs/fssb/Pages/ktap.aspx
+- KCHIP (CHIP): kidshealth.ky.gov/Pages/index.aspx
+- keys: "SNAP / Food Assistance","Kentucky Medicaid","Kentucky Transitional Assistance Program (KTAP/TANF)","KCHIP (CHIP)"
+- slugs: kentucky-snap, kentucky-medicaid, kentucky-ktap, kentucky-kchip
+- Remaining (17): LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: LA)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603. Restore=19103/PA/New York.
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
