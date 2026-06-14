@@ -87,6 +87,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: idaho-snap, idaho-medicaid, idaho-tafi, idaho-chip
 - Remaining (20): IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: IA)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702. Restore=19103/PA/New York.
+### Iowa (IA) — DONE & VERIFIED (test ZIP 50309, Des Moines)
+- SNAP / Food Assistance: hhs.iowa.gov/assistance-programs/food-assistance
+- Iowa Medicaid: hhs.iowa.gov/medicaid
+- Family Investment Program (FIP/TANF): hhs.iowa.gov/assistance-programs/cash-assistance/fip-tanf
+- Hawki (CHIP): hhs.iowa.gov/medicaid/plans-programs/hawki
+- keys: "SNAP / Food Assistance","Iowa Medicaid","Family Investment Program (FIP/TANF)","Hawki (CHIP)"
+- slugs: iowa-snap, iowa-medicaid, iowa-fip, iowa-hawki
+- Remaining (19): KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: KS)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
