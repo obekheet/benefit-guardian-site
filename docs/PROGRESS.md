@@ -48,6 +48,16 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - keys: "SNAP / Food Assistance","Arkansas Medicaid","Transitional Employment Assistance (TEA/TANF)","ARKids First (CHIP)"
 - slugs: arkansas-snap, arkansas-medicaid, arkansas-tea, arkansas-arkids
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201. Restore=19103/PA/New York.
+
+### Connecticut (CT) — DONE & VERIFIED (test ZIP 06103, Hartford)
+- SNAP / Food Assistance: portal.ct.gov/dss/snap/supplemental-nutrition-assistance-program---snap
+- HUSKY Health (Medicaid): portal.ct.gov/husky
+- Temporary Family Assistance (TFA/TANF): portal.ct.gov/dss/knowledge-base/articles/cash-assistance/temporary-family-assistance
+- HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
+- keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
+- slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
+- DB now has 28 states. Remaining (23): DE, HI, ID, IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: DE)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
