@@ -7,45 +7,47 @@ Provide federal + state government benefit programs (SNAP, Medicaid, TANF, CHIP)
 
 ## Rules (binding)
 - Program values: use "Varies" if no exact official figure. NEVER guess numbers or URLs.
-- Only grounded official .gov sources, each URL verified to resolve (reject 404s).
-- Medicaid key must be state-branded (e.g. "Alaska Medicaid"), never bare "Medicaid" (dedup collision).
+- Only grounded official .gov sources, each URL verified to resolve (reject 404s/redirects).
+- Medicaid key must be state-branded (e.g. "Arkansas Medicaid"), never bare "Medicaid".
 - Seed names in api.py must EXACTLY match JSON keys in db/state_source_urls.json.
 - Validate JSON.parse before applying every JSON edit.
-- After live test: restore profile to ZIP 19103 / state PA, then re-scan 19103.
-- Let Copilot auto-suggest commit messages (don't type — it garbles).
-- DB deletes need explicit user confirmation. Don't touch auth token. SSO: obekheet@gmail.com.
+- After live test: restore profile to ZIP 19103 / state PA / city "New York", then re-scan 19103.
+- Let Copilot auto-suggest commit messages (don't type).
+- SSO login: obekheet@gmail.com (Continue with Google ~783,437).
 
 ## Per-state pipeline (~8 commits)
-1. Research 4 .gov URLs (verify resolve). 2. JSON block -> db/state_source_urls.json (parse/add/stringify/validate). 3. Seed list -> api.py GOVERNMENT_SEED_DB. 4. Four SEO pages -> programs/<state>-<prog>.html. 5. sitemap.xml +4 urls. 6. programs/index.html hub +4 cards. 7. Live-verify via app API (filter source_item==='Programs (XX)', 4/4 "Varies"). 8. Restore profile.
+1. Research 4 .gov URLs (verify resolve). 2. JSON block -> db/state_source_urls.json (parse/add/stringify(4)/validate). 3. Seed list -> api.py GOVERNMENT_SEED_DB (insert after last state's "    ],"). 4. Four SEO pages -> programs/<state>-<prog>.html. 5. sitemap.xml +4 urls (.html suffix, before </urlset>). 6. programs/index.html hub +4 cards (after prev state's last card </a>, 8-space indent). 7. Live-verify via app API (filter source_item==='Programs (XX)', 4/4 "Varies"). 8. Restore profile.
+
+## Commit dialog quirk
+After CM6 edit, click "Commit changes..." (1461,134); often need 2-3 clicks (focus first); when dialog opens click green "Commit changes" (942,553).
 
 ## Repos / key URLs
-- Backend: github.com/obekheet/testsample @ production (db/state_source_urls.json, api.py). Auto-deploys to Render.
+- Backend: github.com/obekheet/testsample @ production (db/state_source_urls.json, api.py). Auto-deploys to Render (~2min).
 - SEO: github.com/obekheet/benefit-guardian-site @ main (programs/, sitemap.xml, programs/index.html).
-- Live app: app.benefitguardian.org (logged in as obekheet@gmail.com).
-- DO NOT use github.dev — it is stale.
+- Live app: app.benefitguardian.org (obekheet@gmail.com). bg_token in localStorage.
+- DO NOT use github.dev — stale.
 
-## STATUS — states in DB (target 50)
-DONE (24 fully verified): NJ CA TX FL NY PA IL OH GA NC MI VA WA AZ MA TN IN MO MD WI CO MN SC AL
-IN PROGRESS: AK (JSON done, seed done, SEO: snap+medicaid done; remaining: tanf page, chip page, sitemap, hub, live-verify, restore)
-NOT STARTED (24): AR CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT VT WV WY
+## STATUS — states in DB (target 50): 27 done
+DONE (27, verified live): NJ CA TX FL NY PA IL OH GA NC MI VA WA AZ MA TN IN MO MD WI CO MN SC AL AK AR
+IN PROGRESS: (none)
+NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT VT WV WY
 
-## Verified URLs by state
-### Alabama (AL) - DONE
-- SNAP: dhr.alabama.gov/food-assistance/
-- Medicaid: medicaid.alabama.gov/
-- TANF: dhr.alabama.gov/family-assistance/
-- CHIP: alabamapublichealth.gov/allkids/
-- Keys/slugs: "SNAP / Food Assistance"=alabama-snap, "Alabama Medicaid"=alabama-medicaid, "Family Assistance (TANF)"=alabama-family-assistance, "ALL Kids (CHIP)"=alabama-all-kids
-
-### Alaska (AK) - in progress
+## Verified URLs (recent)
+### Alaska (AK) - DONE, test ZIP 99501
 - SNAP: health.alaska.gov/en/services/division-of-public-assistance-dpa-services/snap-nutrition-assistance/
 - Medicaid: health.alaska.gov/en/services/division-of-public-assistance-dpa-services/apply-for-medicaid/
-- TANF (ATAP): health.alaska.gov/en/services/alaska-temporary-assistance/
-- CHIP (Denali KidCare): health.alaska.gov/en/services/denali-kidcare/
-- Keys/slugs: "SNAP / Food Assistance"=alaska-snap, "Alaska Medicaid"=alaska-medicaid, "Alaska Temporary Assistance (TANF)"=alaska-temporary-assistance, "Denali KidCare (CHIP)"=alaska-denali-kidcare
-- Live test ZIP: 99501 (Anchorage)
+- TANF(ATAP): health.alaska.gov/en/services/alaska-temporary-assistance/
+- CHIP(Denali KidCare): health.alaska.gov/en/services/denali-kidcare/
+- slugs: alaska-snap, alaska-medicaid, alaska-temporary-assistance, alaska-denali-kidcare
 
-## Test ZIPs used
-AL=36104, AK=99501. Restore profile = ZIP 19103, state PA.
+### Arkansas (AR) - DONE, test ZIP 72201
+- SNAP: humanservices.arkansas.gov/divisions-shared-services/county-operations/supplemental-nutrition-assistance-snap/
+- Medicaid: humanservices.arkansas.gov/divisions-shared-services/medical-services/healthcare-programs/
+- TANF(TEA): humanservices.arkansas.gov/divisions-shared-services/county-operations/temporary-assistance-for-needy-families/
+- CHIP(ARKids First): humanservices.arkansas.gov/divisions-shared-services/medical-services/healthcare-programs/arkids/
+- keys: "SNAP / Food Assistance","Arkansas Medicaid","Transitional Employment Assistance (TEA/TANF)","ARKids First (CHIP)"
+- slugs: arkansas-snap, arkansas-medicaid, arkansas-tea, arkansas-arkids
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
