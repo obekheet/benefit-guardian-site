@@ -94,8 +94,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - Hawki (CHIP): hhs.iowa.gov/medicaid/plans-programs/hawki
 - keys: "SNAP / Food Assistance","Iowa Medicaid","Family Investment Program (FIP/TANF)","Hawki (CHIP)"
 - slugs: iowa-snap, iowa-medicaid, iowa-fip, iowa-hawki
-- Remaining (19): KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: KS)
+### Kansas (KS) — DONE & VERIFIED (test ZIP 66603, Topeka)
+- SNAP / Food Assistance: dcf.ks.gov/services/ees/Pages/Food/FoodAssistance.aspx
+- KanCare (Medicaid): kancare.ks.gov/members/benefits-services
+- TANF / Cash Assistance: dcf.ks.gov/services/ees/Pages/Cash/CashAssistance.aspx
+- CHIP (KanCare): kancare.ks.gov/apply-now
+- keys: "SNAP / Food Assistance","KanCare (Medicaid)","TANF / Cash Assistance","CHIP (KanCare)"
+- slugs: kansas-snap, kansas-kancare, kansas-tanf, kansas-chip
+- Remaining (18): KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: KY)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309. Restore=19103/PA/New York.
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
