@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 28 states. Remaining (9): ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NH)
+- DB now has 28 states. Remaining (8): OK, OR, RI, SD, UT, VT, WV, WY (next: NH)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -175,9 +175,16 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - New Mexico Childrens Medicaid (CHIP): https://www.hca.nm.gov/turquoise-care/ (shared Turquoise Care page)
 - keys: "SNAP / Food Assistance","New Mexico Medicaid (Turquoise Care)","TANF / Temporary Assistance for Needy Families","New Mexico Childrens Medicaid (CHIP)"
 - slugs: new-mexico-snap, new-mexico-medicaid, new-mexico-tanf, new-mexico-chip
+## North Dakota (ND) — DONE — built; live verify pending login (test ZIP 58501, Bismarck)
+- SNAP / Food Assistance: https://www.hhs.nd.gov/applyforhelp/snap
+- North Dakota Medicaid: https://www.hhs.nd.gov/healthcare/medicaid
+- TANF / Temporary Assistance for Needy Families: https://www.hhs.nd.gov/applyforhelp/tanf
+- North Dakota Childrens Health Insurance Program (CHIP): https://www.hhs.nd.gov/healthcare/CHIP
+- keys: "SNAP / Food Assistance","North Dakota Medicaid","TANF / Temporary Assistance for Needy Families","North Dakota Childrens Health Insurance Program (CHIP)"
+- slugs: north-dakota-snap, north-dakota-medicaid, north-dakota-tanf, north-dakota-chip
 
-- Remaining (11): NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NH)
+- Remaining (8): OK, OR, RI, SD, UT, VT, WV, WY (next: OK)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501. Restore=19103/PA/New York.
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-15_
