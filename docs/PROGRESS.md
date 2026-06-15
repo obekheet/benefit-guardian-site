@@ -108,8 +108,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - KCHIP (CHIP): kidshealth.ky.gov/Pages/index.aspx
 - keys: "SNAP / Food Assistance","Kentucky Medicaid","Kentucky Transitional Assistance Program (KTAP/TANF)","KCHIP (CHIP)"
 - slugs: kentucky-snap, kentucky-medicaid, kentucky-ktap, kentucky-kchip
-- Remaining (17): LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: LA)
+### Louisiana (LA) — DONE & VERIFIED (test ZIP 70802, Baton Rouge)
+- SNAP / Food Assistance: dcfs.louisiana.gov/page/snap
+- Louisiana Medicaid: ldh.la.gov/medicaid
+- Family Independence Temporary Assistance Program (FITAP/TANF): dcfs.louisiana.gov/page/fitap
+- LaCHIP (CHIP): ldh.la.gov/medicaid/lachip
+- keys: "SNAP / Food Assistance","Louisiana Medicaid","Family Independence Temporary Assistance Program (FITAP/TANF)","LaCHIP (CHIP)"
+- slugs: louisiana-snap, louisiana-medicaid, louisiana-fitap, louisiana-lachip
+- Remaining (16): ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: ME)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601. Restore=19103/PA/New York.
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
