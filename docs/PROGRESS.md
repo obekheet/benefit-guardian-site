@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 49 states. Remaining (1): WY (next: WY)
+- DB now has 50 states. ALL 50 STATES COMPLETE. Remaining (0): none
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -244,8 +244,16 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - seed names: "West Virginia SNAP","West Virginia Medicaid","WV WORKS (West Virginia TANF)","West Virginia CHIP (WVCHIP)"
 - slugs: west-virginia-snap, west-virginia-medicaid, west-virginia-tanf, west-virginia-chip
 - note: WV DHHR reorganized to dohs.wv.gov; programs now on bfa.wv.gov (SNAP/TANF) and bms.wv.gov (Medicaid)
-- Remaining (1): WY (next: WY)
+## Wyoming (WY) — DONE — built; live verify pending login (test ZIP 82001, Cheyenne)
+- Wyoming SNAP: https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/
+- Wyoming Medicaid: https://health.wyo.gov/healthcarefin/medicaid/
+- POWER (Wyoming TANF Cash Assistance): https://dfs.wyo.gov/assistance-programs/cash-assistance/
+- Kid Care CHIP (Wyoming CHIP): https://health.wyo.gov/healthcarefin/chip/
+- keys: "snap","Wyoming Medicaid","tanf","Kid Care CHIP"
+- seed names: "Wyoming SNAP","Wyoming Medicaid","POWER (Wyoming TANF Cash Assistance)","Kid Care CHIP (Wyoming CHIP)"
+- slugs: wyoming-snap, wyoming-medicaid, wyoming-tanf, wyoming-chip
+- Remaining (0): none — ALL 50 STATES BUILT
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501, OK=73102, OR=97301, RI=02903, SD=57501, UT=84111, VT=05602, WV=25301. Restore=19103/PA/New York.
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501, OK=73102, OR=97301, RI=02903, SD=57501, UT=84111, VT=05602, WV=25301, WY=82001. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-15_
