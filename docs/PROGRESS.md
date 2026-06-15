@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 28 states. Remaining (12): NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NV)
+- DB now has 28 states. Remaining (11): NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NH)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -153,6 +153,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: nebraska-snap, nebraska-medicaid, nebraska-tanf, nebraska-chip
 - Remaining (12): NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NV)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508. Restore=19103/PA/New York.
+### Nevada (NV) — DONE & VERIFIED (test ZIP 89701, Carson City)
+- SNAP / Food Assistance: https://www.dss.nv.gov/programs/snap/
+- Nevada Medicaid: https://dhcfp.nv.gov/
+- TANF / Temporary Assistance for Needy Families: https://www.dss.nv.gov/programs/tanf/
+- Nevada Check Up (CHIP): https://dhcfp.nv.gov/ (Check Up administered by DHCFP)
+- keys: "SNAP / Food Assistance","Nevada Medicaid","TANF / Temporary Assistance for Needy Families","Nevada Check Up (CHIP)"
+- slugs: nevada-snap, nevada-medicaid, nevada-tanf, nevada-chip
+- Remaining (11): NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NH)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
