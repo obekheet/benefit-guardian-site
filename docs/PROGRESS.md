@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 28 states. Remaining (15): MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: MS)
+- DB now has 28 states. Remaining (14): MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: MT)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -126,6 +126,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: maine-snap, maine-medicaid, maine-tanf, maine-chip
 - Remaining (15): MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: MS)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330. Restore=19103/PA/New York.
+### Mississippi (MS) — DONE & VERIFIED (test ZIP 39201, Jackson)
+- SNAP / Food Assistance: https://www.mdhs.ms.gov/help/snap/
+- Mississippi Medicaid: https://medicaid.ms.gov/medicaid-coverage/who-qualifies-for-coverage/mississippi-medicaid-health-benefits/
+- TANF / Temporary Assistance for Needy Families: https://www.mdhs.ms.gov/help/tanf/
+- Mississippi CHIP: https://medicaid.ms.gov/programs/childrens-health-insurance-program-chip/
+- keys: "SNAP / Food Assistance","Mississippi Medicaid","TANF / Temporary Assistance for Needy Families","Mississippi CHIP"
+- slugs: mississippi-snap, mississippi-medicaid, mississippi-tanf, mississippi-chip
+- Remaining (14): MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: MT)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
