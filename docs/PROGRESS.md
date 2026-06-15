@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 28 states. Remaining (23): DE, HI, ID, IA, KS, KY, LA, ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: DE)
+- DB now has 28 states. Remaining (15): MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: MS)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -117,6 +117,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: louisiana-snap, louisiana-medicaid, louisiana-fitap, louisiana-lachip
 - Remaining (16): ME, MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: ME)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802. Restore=19103/PA/New York.
+### Maine (ME) — DONE & VERIFIED (test ZIP 04330, Augusta)
+- SNAP / Food Supplement: https://www.maine.gov/dhhs/ofi/programs-services/food-supplement
+- MaineCare (Medicaid): https://www.maine.gov/dhhs/ofi/programs-services/health-care-assistance
+- TANF / Temporary Assistance for Needy Families: https://www.maine.gov/dhhs/ofi/programs-services/tanf
+- MaineCare for Children (CHIP): https://www.maine.gov/dhhs/oms/mainecare-options/children
+- keys: "SNAP / Food Supplement","MaineCare (Medicaid)","TANF / Temporary Assistance for Needy Families","MaineCare for Children (CHIP)"
+- slugs: maine-snap, maine-medicaid, maine-tanf, maine-chip
+- Remaining (15): MS, MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: MS)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
