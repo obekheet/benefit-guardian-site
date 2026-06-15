@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 45 states. Remaining (5): SD, UT, VT, WV, WY (next: SD)
+- DB now has 46 states. Remaining (4): UT, VT, WV, WY (next: UT)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -210,8 +210,17 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - keys: "SNAP / Food Assistance","Rhode Island Medicaid","Rhode Island Works (TANF)","RIte Care (Rhode Island CHIP)"
 - slugs: rhode-island-snap, rhode-island-medicaid, rhode-island-tanf, rhode-island-chip
 
-- Remaining (5): SD, UT, VT, WV, WY (next: SD)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501, OK=73102, OR=97301, RI=02903. Restore=19103/PA/New York.
+## South Dakota (SD) — DONE — built; live verify pending login (test ZIP 57501, Pierre)
+- SNAP / Food Assistance: https://dss.sd.gov/economicassistance/snap.aspx
+- South Dakota Medicaid: https://dss.sd.gov/medicaid/default.aspx
+- TANF / Temporary Assistance for Needy Families: https://dss.sd.gov/economicassistance/tanf.aspx
+- South Dakota Childrens Coverage (CHIP): https://dss.sd.gov/medicaid/default.aspx
+- keys: "SNAP / Food Assistance","South Dakota Medicaid","TANF / Temporary Assistance for Needy Families","South Dakota Childrens Coverage (CHIP)"
+- slugs: south-dakota-snap, south-dakota-medicaid, south-dakota-tanf, south-dakota-chip
+
+- Remaining (4): UT, VT, WV, WY (next: UT)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501, OK=73102, OR=97301, RI=02903, SD=57501. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-15_
