@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 43 states. Remaining (7): OR, RI, SD, UT, VT, WV, WY (next: OR)
+- DB now has 44 states. Remaining (6): RI, SD, UT, VT, WV, WY (next: RI)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -192,8 +192,17 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - keys: "SNAP / Food Assistance","SoonerCare (Oklahoma Medicaid)","TANF / Temporary Assistance for Needy Families","SoonerCare Childrens Coverage (CHIP)"
 - slugs: oklahoma-snap, oklahoma-medicaid, oklahoma-tanf, oklahoma-chip
 
-- Remaining (7): OR, RI, SD, UT, VT, WV, WY (next: OR)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501, OK=73102. Restore=19103/PA/New York.
+## Oregon (OR) — DONE & VERIFIED LIVE (test ZIP 97301, Salem)
+- SNAP / Food Assistance: https://www.oregon.gov/odhs/food/pages/snap.aspx
+- Oregon Health Plan (Oregon Medicaid): https://www.oregon.gov/oha/hsd/ohp/pages/index.aspx
+- TANF / Temporary Assistance for Needy Families: https://www.oregon.gov/odhs/cash/pages/tanf.aspx
+- Oregon Health Plan Childrens Coverage (CHIP): https://www.oregon.gov/oha/hsd/ohp/pages/index.aspx
+- keys: "SNAP / Food Assistance","Oregon Health Plan (Oregon Medicaid)","TANF / Temporary Assistance for Needy Families","Oregon Health Plan Childrens Coverage (CHIP)"
+- slugs: oregon-snap, oregon-medicaid, oregon-tanf, oregon-chip
+
+- Remaining (6): RI, SD, UT, VT, WV, WY (next: RI)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501, OK=73102, OR=97301. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-15_
