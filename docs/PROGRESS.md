@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 47 states. Remaining (3): VT, WV, WY (next: VT)
+- DB now has 48 states. Remaining (2): WV, WY (next: WV)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -227,8 +227,16 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - keys: "snap","Utah Medicaid","tanf","Utah CHIP"
 - seed names: "SNAP — Food Assistance","Utah Medicaid","Family Employment Program (Utah TANF)","Utah Childrens Coverage (CHIP)"
 - slugs: utah-snap, utah-medicaid, utah-tanf, utah-chip
-- Remaining (3): VT, WV, WY (next: VT)
+## Vermont (VT) — DONE — built; live verify pending login (test ZIP 05602, Montpelier)
+- 3SquaresVT (Vermont SNAP): https://dcf.vermont.gov/benefits/3SquaresVT
+- Vermont Medicaid: https://dvha.vermont.gov/members/medicaid
+- Reach Up (Vermont TANF): https://dcf.vermont.gov/benefits/reachup
+- Dr. Dynasaur (Vermont CHIP): https://dvha.vermont.gov/members/dr-dynasaur
+- keys: "snap","Vermont Medicaid","tanf","Dr Dynasaur"
+- seed names: "3SquaresVT (Vermont SNAP)","Vermont Medicaid","Reach Up (Vermont TANF)","Dr. Dynasaur (Vermont CHIP)"
+- slugs: vermont-snap, vermont-medicaid, vermont-tanf, vermont-chip
+- Remaining (2): WV, WY (next: WV)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501, OK=73102, OR=97301, RI=02903, SD=57501, UT=84111. Restore=19103/PA/New York.
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508, NV=89701, NH=03301, NM=87501, ND=58501, OK=73102, OR=97301, RI=02903, SD=57501, UT=84111, VT=05602. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-15_
