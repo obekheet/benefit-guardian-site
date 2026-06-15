@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 28 states. Remaining (13): NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NE)
+- DB now has 28 states. Remaining (12): NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NV)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -144,6 +144,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: montana-snap, montana-medicaid, montana-tanf, montana-chip
 - Remaining (13): NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NE)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601. Restore=19103/PA/New York.
+### Nebraska (NE) — DONE & VERIFIED (test ZIP 68508, Lincoln)
+- SNAP / Food Assistance: https://dhhs.ne.gov/Pages/SNAP.aspx
+- Nebraska Medicaid: https://dhhs.ne.gov/Pages/Medicaid-Eligibility.aspx
+- ADC / TANF (Aid to Dependent Children): https://dhhs.ne.gov/Pages/TANF.aspx
+- Nebraska CHIP: https://dhhs.ne.gov/Pages/Medicaid-Eligibility.aspx (CHIP described on Medicaid-Eligibility page)
+- keys: "SNAP / Food Assistance","Nebraska Medicaid","ADC / TANF (Aid to Dependent Children)","Nebraska CHIP"
+- slugs: nebraska-snap, nebraska-medicaid, nebraska-tanf, nebraska-chip
+- Remaining (12): NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NV)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601, NE=68508. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
