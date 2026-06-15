@@ -56,7 +56,7 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - HUSKY B (CHIP): portal.ct.gov/dss/knowledge-base/articles/healthcare-coverage/husky-b
 - keys: "SNAP / Food Assistance","HUSKY Health (Medicaid)","Temporary Family Assistance (TFA/TANF)","HUSKY B (CHIP)"
 - slugs: connecticut-snap, connecticut-husky-health, connecticut-tfa, connecticut-husky-b
-- DB now has 28 states. Remaining (14): MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: MT)
+- DB now has 28 states. Remaining (13): NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NE)
 
 
 ### Delaware (DE) — DONE & VERIFIED (test ZIP 19901, Dover)
@@ -135,6 +135,15 @@ NOT STARTED (23): CT DE HI ID IA KS KY LA ME MS MT NE NV NH NM ND OK OR RI SD UT
 - slugs: mississippi-snap, mississippi-medicaid, mississippi-tanf, mississippi-chip
 - Remaining (14): MT, NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: MT)
 
-## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201. Restore=19103/PA/New York.
+### Montana (MT) — DONE & VERIFIED (test ZIP 59601, Helena)
+- SNAP / Food Assistance: https://dphhs.mt.gov/HCSD/SNAP
+- Montana Medicaid: https://dphhs.mt.gov/MontanaHealthcarePrograms/index
+- TANF / Temporary Assistance for Needy Families: https://dphhs.mt.gov/HCSD/tanf
+- Healthy Montana Kids (CHIP): https://dphhs.mt.gov/HMK/index
+- keys: "SNAP / Food Assistance","Montana Medicaid","TANF / Temporary Assistance for Needy Families","Healthy Montana Kids (CHIP)"
+- slugs: montana-snap, montana-medicaid, montana-tanf, montana-chip
+- Remaining (13): NE, NV, NH, NM, ND, OK, OR, RI, SD, UT, VT, WV, WY (next: NE)
+
+## Test ZIPs: AL=36104, AK=99501, AR=72201, CT=06103, DE=19901, HI=96813, ID=83702, IA=50309, KS=66603, KY=40601, LA=70802, ME=04330, MS=39201, MT=59601. Restore=19103/PA/New York.
 
 _Last updated: 2026-06-14_
